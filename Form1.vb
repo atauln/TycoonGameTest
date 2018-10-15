@@ -34,7 +34,7 @@
 
             Money = Money - MoneyRequired
             MoneyPerClick = MoneyPerClick + 2
-            MoneyRequired = 2 * MoneyRequired
+            MoneyRequired = 1 * MoneyRequired
             Label1.Text = Money
             Label2.Text = MoneyRequired
         End If
@@ -48,7 +48,7 @@
             Money = Money - MoneyRequiredforMegaClicker
             MegaClickers += 1
             Label1.Text = Money
-            MoneyRequiredforMegaClicker = MoneyRequiredforMegaClicker * 2
+            MoneyRequiredforMegaClicker = MoneyRequiredforMegaClicker * 1
 
             Label3.Text = MoneyRequiredforMegaClicker
         End If
@@ -65,7 +65,7 @@
         CheckforMoney()
         If Money >= MoneyRequiredforAutoClickers Then
             Money = Money - MoneyRequiredforAutoClickers
-            MoneyRequiredforAutoClickers = MoneyRequiredforAutoClickers * 2
+            MoneyRequiredforAutoClickers = MoneyRequiredforAutoClickers * 1
             Label4.Text = MoneyRequiredforAutoClickers
             AutoClickers = AutoClickers + 1
             Timer1.Interval = 1000 / AutoClickers
