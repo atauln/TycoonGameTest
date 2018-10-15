@@ -33,7 +33,7 @@
         If Money >= MoneyRequired Then
 
             Money = Money - MoneyRequired
-            MoneyPerClick = MoneyPerClick + 1
+            MoneyPerClick = MoneyPerClick + 2
             MoneyRequired = 2 * MoneyRequired
             Label1.Text = Money
             Label2.Text = MoneyRequired
