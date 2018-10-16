@@ -33,7 +33,7 @@
         If Money >= MoneyRequired Then
 
             Money = Money - MoneyRequired
-            MoneyPerClick = MoneyPerClick + 2
+            MoneyPerClick = MoneyPerClick + 1
             MoneyRequired = 1 * MoneyRequired
             Label1.Text = Money
             Label2.Text = MoneyRequired
@@ -48,7 +48,7 @@
             Money = Money - MoneyRequiredforMegaClicker
             MegaClickers += 1
             Label1.Text = Money
-            MoneyRequiredforMegaClicker = MoneyRequiredforMegaClicker * 1
+            MoneyRequiredforMegaClicker *= 1
 
             Label3.Text = MoneyRequiredforMegaClicker
         End If
